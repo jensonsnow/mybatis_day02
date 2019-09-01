@@ -1,4 +1,4 @@
-package com.hui.demo2;
+package com.hui.repository;
 
 import com.hui.entity.User;
 

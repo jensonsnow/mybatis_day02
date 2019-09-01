@@ -11,7 +11,7 @@
     </delete> 
 
     <update id="updateUser" parameterType="com.hui.entity.User">
-       update t_user set username=#{username},password=#{password},account=#{account} where id=#{id}
+       update t_user set username=#{username},password=#{password}  where id=#{id}
     </update>
 
     <select id="selectUserById" parameterType="java.lang.Integer" resultType="com.hui.entity.User">
